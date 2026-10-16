@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-75-state-global-react-error-boundary-system",
+    "fix/issue-75-state-global-react-error-boundary-system-r2",
+    "main",
+    "origin",
+    "security/issue-77-background-crypto-web-workers",
+    "security/issue-77-background-crypto-web-workers-r2"
+  ],
+  "parent": {
+    "fix/issue-75-state-global-react-error-boundary-system": "main",
+    "fix/issue-75-state-global-react-error-boundary-system-r2": "fix/issue-75-state-global-react-error-boundary-system",
+    "main": null,
+    "origin": "main",
+    "security/issue-77-background-crypto-web-workers": "main",
+    "security/issue-77-background-crypto-web-workers-r2": "security/issue-77-background-crypto-web-workers"
+  },
+  "order": [
+    "main",
+    "fix/issue-75-state-global-react-error-boundary-system",
+    "origin",
+    "security/issue-77-background-crypto-web-workers",
+    "fix/issue-75-state-global-react-error-boundary-system-r2",
+    "security/issue-77-background-crypto-web-workers-r2"
+  ]
+}
